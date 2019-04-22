@@ -1,0 +1,20 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+.tile{
+   width: 32px;
+   height: 32px;
+   color: blue;
+   background-color: red;
+   display: inline-block;
+   /*background-image: url('./images/tile.png');*/
+   background-repeat: no-repeat;
+   background-size: contain;
+   border-bottom: 3px solid red;
+}
+#factory{
+   width: 256px;
+   border: 1px solid green;
+   line-height: 0;
+}
